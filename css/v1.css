@@ -1,0 +1,88 @@
+.container {
+  width: 80%;
+  margin: auto !important;
+  font-family: monospace;
+}
+
+.header {
+  line-height: 48px;
+  border-bottom: 1px solid #efefef;
+}
+
+.header h1 {
+  margin: 0;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.title {
+  font-family: monospace;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.description {
+  font-size: 14px;
+  vertical-align: middle;
+}
+
+.nav {
+  float: right;
+  line-height: inherit;
+}
+
+.nav a {
+  color: #666;
+  text-decoration: none;
+  font-family: monospace;
+}
+
+.nav a:hover {
+  color: green;
+  text-decoration: underline;
+}
+
+footer {
+  padding: 10px 0;
+}
+
+ul {
+  padding-left: 0;
+}
+
+.projects i {
+  font-style: normal;
+}
+
+.talk-location:before {
+  content: 'at';
+  margin-right: 2px;
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    width: 95%;
+  }
+  .header, .footer {
+    text-align: center;
+  }
+  .nav {
+    float: none;
+    display: block;
+  }
+  .posts {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .title {
+    display: block;
+  }
+  ul {
+    padding-left: 15px;
+  }
+  .posts .post-date {
+    display: none;
+  }
+}
