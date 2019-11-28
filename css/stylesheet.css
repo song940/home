@@ -1,6 +1,6 @@
 .container {
   width: 80%;
-  margin: auto !important;
+  margin: auto;
   font-family: monospace;
 }
 
@@ -15,17 +15,6 @@
   vertical-align: middle;
 }
 
-.title {
-  font-family: monospace;
-  text-decoration: none;
-  text-transform: uppercase;
-}
-
-.description {
-  font-size: 14px;
-  vertical-align: middle;
-}
-
 .nav {
   float: right;
   line-height: inherit;
@@ -33,6 +22,7 @@
 
 .nav a {
   color: #666;
+  margin: 0 3px;
   text-decoration: none;
   font-family: monospace;
 }
@@ -42,26 +32,17 @@
   text-decoration: underline;
 }
 
-footer {
-  padding: 10px 0;
-}
-
 ul {
   padding-left: 0;
 }
 
-.projects i {
-  font-style: normal;
-}
-
-.talk-location:before {
-  content: 'at';
-  margin-right: 2px;
+footer {
+  padding: 10px 0;
 }
 
 @media screen and (max-width: 768px) {
   .container {
-    width: 95%;
+    width: 95% !important;
   }
   .header, .footer {
     text-align: center;
@@ -69,20 +50,5 @@ ul {
   .nav {
     float: none;
     display: block;
-  }
-  .posts {
-    font-size: 14px;
-  }
-}
-
-@media screen and (max-width: 480px) {
-  .title {
-    display: block;
-  }
-  ul {
-    padding-left: 15px;
-  }
-  .posts .post-date {
-    display: none;
   }
 }

@@ -1,0 +1,31 @@
+.projects i {
+  font-style: normal;
+}
+
+.talk-topic time,
+.talk-location a {
+  color: #666;
+  text-decoration: none;
+}
+.talk-location:before {
+  content: 'at';
+  margin-right: 2px;
+}
+
+@media screen and (max-width: 480px) {
+  .title {
+    display: block;
+  }
+  ul {
+    padding-left: 15px;
+  }
+  .subscribe {
+    text-align: center;
+  }
+  .subscribe input {
+    width: 50%;
+    margin: auto;
+    display: block;
+    text-align: center;
+  }
+}

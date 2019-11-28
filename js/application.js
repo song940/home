@@ -1,5 +1,4 @@
-;(function(exports, undefined){
-  
-  console.log('In code, we trust.');
+import { render } from './navbar.js';
 
-})(window);
+render('#navbar');
+
