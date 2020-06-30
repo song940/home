@@ -2,7 +2,7 @@
 export const getNavbarItems = () =>
   Promise
     .resolve()
-    .then(() => fetch('//lsong.org/data/navbar.json'))
+    .then(() => fetch('/data/navbar.json'))
     .then(res => res.json())
 
 export const createLink = ({ text, href }) => {
