@@ -3,7 +3,7 @@
 @import url(https://lsong.org/stylesheets/grid.css);
 
 body {
-  color: var(--color);
+  color: var(--text-color);
   background-color: var(--background-color);
 }
 
