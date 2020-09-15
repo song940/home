@@ -42,10 +42,6 @@ footer {
   padding: 10px 0;
 }
 @media screen and (max-width: 768px) {
-  .container {
-    width: 95% !important;
-  }
-
   .footer,
   .header {
     text-align: center;
