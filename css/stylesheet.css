@@ -1,12 +1,14 @@
-.container {
-  width: 80%;
-  margin: auto;
-  font-family: monospace;
+@import url(https://lsong.org/stylesheets/theme/default.css);
+@import url(https://lsong.org/stylesheets/util.css);
+@import url(https://lsong.org/stylesheets/grid.css);
+
+body {
+  color: var(--color);
+  background-color: var(--background-color);
 }
 
 .header {
   line-height: 48px;
-  border-bottom: 1px solid #efefef;
 }
 
 .header h1 {
@@ -39,14 +41,16 @@ ul {
 footer {
   padding: 10px 0;
 }
-
 @media screen and (max-width: 768px) {
   .container {
     width: 95% !important;
   }
-  .header, .footer {
+
+  .footer,
+  .header {
     text-align: center;
   }
+
   .nav {
     float: none;
     display: block;
