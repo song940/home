@@ -2,11 +2,6 @@
 @import url(https://lsong.org/stylesheets/util.css);
 @import url(https://lsong.org/stylesheets/grid.css);
 
-body {
-  color: var(--text-color);
-  background-color: var(--background-color);
-}
-
 .header {
   line-height: 48px;
 }
@@ -15,6 +10,7 @@ body {
   margin: 0;
   display: inline-block;
   vertical-align: middle;
+  font-family: monospace;
 }
 
 .nav {
@@ -42,6 +38,10 @@ footer {
   padding: 10px 0;
 }
 @media screen and (max-width: 768px) {
+  .container {
+    width: 95%;
+  }
+
   .footer,
   .header {
     text-align: center;
@@ -50,5 +50,9 @@ footer {
   .nav {
     float: none;
     display: block;
+  }
+
+  ul {
+    padding-left: 20px;
   }
 }
