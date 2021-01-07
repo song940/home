@@ -1,0 +1,14 @@
+body {
+  max-width: 650px;
+  color: #ccc;
+  font-family: fira code,monospace;
+  background: #002240;
+}
+
+h2 {
+  color: #ffee80;
+}
+
+a {
+  color: #9effff !important;
+}
