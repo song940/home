@@ -1,6 +1,7 @@
 @import url(https://lsong.org/stylesheets/theme/default.css);
 @import url(https://lsong.org/stylesheets/util.css);
 @import url(https://lsong.org/stylesheets/grid.css);
+@import url(https://lsong.org/css/theme/blue.css);
 
 .header {
   line-height: 48px;
