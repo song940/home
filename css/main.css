@@ -4,7 +4,6 @@
 
 .talk-topic time,
 .talk-location a {
-  color: #666;
   text-decoration: none;
 }
 .talk-location:before {
