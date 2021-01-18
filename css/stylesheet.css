@@ -3,6 +3,20 @@
 @import url(https://lsong.org/stylesheets/util.css);
 @import url(https://lsong.org/stylesheets/grid.css);
 
+body {
+  color: var(--text-color);
+  font-family: "Fira Code", monospace;
+  background-color: var(--background-color);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: var(--title-color);
+}
+
+a {
+  color: var(--link-color) !important;
+}
+
 .header {
   line-height: 48px;
 }
