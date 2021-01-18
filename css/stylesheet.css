@@ -4,6 +4,7 @@
 @import url(https://lsong.org/stylesheets/grid.css);
 
 body {
+  max-width: 650px;
   color: var(--text-color);
   font-family: "Fira Code", monospace;
   background-color: var(--background-color);
