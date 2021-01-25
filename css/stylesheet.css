@@ -10,7 +10,12 @@ body {
   background-color: var(--background-color);
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   color: var(--title-color);
 }
 
@@ -70,5 +75,20 @@ footer {
 
   ul {
     padding-left: 20px;
+  }
+
+  .title {
+    display: block;
+  }
+
+  .subscribe {
+    text-align: center;
+  }
+
+  .subscribe input {
+    width: 50%;
+    margin: auto;
+    display: block;
+    text-align: center;
   }
 }

@@ -10,18 +10,3 @@
   content: 'at';
   margin-right: 2px;
 }
-
-@media screen and (max-width: 480px) {
-  .title {
-    display: block;
-  }
-  .subscribe {
-    text-align: center;
-  }
-  .subscribe input {
-    width: 50%;
-    margin: auto;
-    display: block;
-    text-align: center;
-  }
-}
